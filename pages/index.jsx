@@ -1,7 +1,7 @@
 import Link from "next/link";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import ProductList from "@/components/ProductList";
+import ProductList from "@/components/product-list/ProductList";
 import ProductHeader from "@/components/ProductHeader";
 
 // '/'에 해당하는 페이지
