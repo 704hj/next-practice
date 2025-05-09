@@ -13,7 +13,7 @@ export default function ProductDetailPage({message, productDetail}) {
       <ProductHeader title = {headerTitle}></ProductHeader>
       <ProductInfo productDetail={productDetail}></ProductInfo>
       <div>ProductDetailPage : {message} </div>
-      <div>productDetail : {JSON.stringify(productDetail)}</div>
+      
     </div>
   )
 }

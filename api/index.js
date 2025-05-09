@@ -23,7 +23,16 @@ function fetchProductById(id) {
     return instance.get(`/products/${id}`);
 }
 
-export { fetchProducts, fetchProductById };
+//특정 상품 상세 정보를 조회하는 api 함수
+function createCartItem(id, name){
+    return instance.post('/carts', {
+        id: id,
+        name: name,
+    });
+}
+
+
+export { fetchProducts, fetchProductById, createCartItem };
 
 // CRUD
 // create - 생성
